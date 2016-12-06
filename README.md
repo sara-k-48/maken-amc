@@ -2,6 +2,15 @@ Proof of concept
 
 Design challenge: Hoe kan ik het toevoegen van een taak in de OCD app soepeler laten verlopen door het verbeteren van microinteracties?
 
+
+Deelvraag: Wat is de beste manier om microinteracties te verbeteren met animatie?
+
+
+Technische uitdagingen:
+- Leren hoe je het beste microinteracties kunt maken die de app fijner laten aanvoelen
+- Meer leren op het gebied van animatie
+
+
 Ik wil aan de slag met het verbeteren van microinteracties in de app. Hierbij zal ik mij focussen op het gedeelte in de app waar een taak kan worden toegevoegd. Pieter Ooms, de therapeut op het AMC, liet weten dat op dit moment gebruikers van de app vaak velden leeg laten wanneer zij een taak toevoegen. Ik wil door middel van het verbeteren van microinteracties het de gebruiker makkelijker maken om een taak toe te voegen en ook motiveren om dit volledig doen door de app fijner in gebruik te maken. 
 
 Het verbeteren van microinteracties kan goed door gebruik te maken van animaties. Een goed voorbeeld is dit project van UX Designer Nick Buturishvili: https://www.behance.net/gallery/42185273/micro-interactions. In zijn voorbeeld zie je goed dat microinteracties een stuk fijner kunnen aanvoelen wanneer er een animatie of simpele transitie aan zit gekoppeld.
