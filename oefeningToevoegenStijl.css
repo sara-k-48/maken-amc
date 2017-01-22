@@ -1,0 +1,247 @@
+h1, h2, p { color: white !important; font-family: 'Muli', sans-serif!important;}
+
+h1{ padding-top:20px!important;}
+
+#klein{width:80px!important;}
+
+section {
+  height:100vh;
+  margin:auto;
+}
+
+#een {background-color:#2b3951;
+}
+
+#twee {background-color:#31415c;
+}
+
+#drie {background-color:#374967;
+}
+
+#vier {background-color:#3d5072;
+}
+
+#vijf {background-color:#43587d;
+}
+
+#zes {background-color:#486088;
+}
+
+#arrow {
+    position:fixed;
+    right:20.3%;
+    bottom:0;
+    background-color:none;
+}
+#arrow a{
+    display:inline-block;
+    padding:10px 20px;
+    cursor:pointer;
+    font-size:40px;
+}
+
+* { font-family: 'Muli', sans-serif; }
+
+section {padding: 50px; display:flex; flex-wrap: wrap;}
+
+input {max-width:800px !important; height:100px;}
+label { font-size: 25px !important;  color:white; font-weight: 400 !important; margin-top:18%;}
+
+.volgende { width: 110px;
+    height: 60px;
+    border: 2px solid #43c6a6;
+    border-radius: 40px;
+    background: transparent;
+    color:white;
+    margin-top:20px;
+}
+
+
+.progress { position: fixed; width: 200px; border-radius: 90px!important; bottom:0; }
+
+.progress-bar {background-color:#43c6a6 !important; }
+
+
+
+.rs-control .rs-range-color {
+    background-color: #54BBE0;
+}
+.rs-control .rs-path-color {
+    background-color: transparent;
+}
+.rs-control .rs-handle {
+    background-color: #838383;
+}
+.rs-control .rs-bg-color {
+    background-color: transparent;
+}
+
+
+
+.rs-handle  {
+    background-color: transparent;
+    border: 4px solid transparent;
+    border-right-color: #43587d;
+    margin: -15px 0px 0px 14px !important;
+    border-width: 15px 29px 15px 1px;
+}
+
+#speedmeter2 .rs-handle{
+    background-color: transparent;
+    border: 4px solid transparent;
+    border-right-color: #486088;
+    margin: -15px 0px 0px 14px !important;
+    border-width: 15px 29px 15px 1px;
+}
+
+#speedmeter2 { padding-top:20px;}
+
+.rs-tooltip  {
+    top: 75%;
+    font-size: 11px;
+}
+.rs-tooltip div  {
+    text-align: center;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    padding: 1px 5px 2px;
+    margin-top: 4px;
+}
+.rs-range-color  {
+    background-color: #DB5959;
+}
+.rs-path-color  {
+    background-color: #F0C5C5;
+}
+
+.rs-control .rs-handle {
+    background-color: transparent;
+}
+
+img { position:absolute;}
+
+.rs-control .rs-range-color {
+    background-color: transparent;
+}
+
+body {background:white;}
+
+.rs-control .rs-bg-color {
+
+}
+
+.rs-control .rs-path-color {
+background-color: transparent;
+}
+
+
+img { width:160px;
+    height: auto; margin-left:0px; margin-top:0px;}
+
+.rs-tooltip-text { margin-top: -30px !important;font-size: 30px !important; font-family: 'Muli', sans-serif !important;}
+
+.rs-block { border-color:transparent!important;}
+
+.rs-border {border-color:transparent!important;}
+
+#speedmeter {padding-top:50px; margin-left: 0%; padding-bottom: 50px;}
+
+#inputVijf { margin-top: 12%; }
+
+#progressVijf {margin-top: 8%;}
+
+.next {color: white;}
+.previous { color:white;}
+.next:hover {color: white;}
+.previous:hover { color:white;}
+.next:active {color: white;}
+.previous:active { color:white;}
+.next:visited {color: white;}
+.previous:visited { color:white;}
+
+
+#terug { position:fixed;
+    left: 2%;
+    top: 1%;
+    color:white;
+    font-size: 18px;
+}
+
+nav { position:fixed;
+    left: 24%;
+    top: 2.5%;
+    color:white;
+    font-size: 18px;
+}
+
+    .fa {font-size: 40px!important;}
+#terug > .fa { padding-right: 10px;}
+
+@media only screen and (min-width : 850px) and (max-width: 1500px) {
+
+#arrow {
+    position:fixed;
+    right:0;
+    bottom:0;
+    background-color:none;
+}
+
+
+    nav {left: 60px; top:2.5%; font-size:18px;}
+}
+
+@media only screen and (min-width : 500px) and (max-width: 850px) {
+
+#arrow {
+    position:fixed;
+    right:0;
+    bottom:0;
+    background-color:none;
+}
+    #terug { position:fixed;
+    left: 5%;
+    top: 1%;
+}
+
+    .fa {font-size: 30px!important;}
+
+    nav {left: 60px; top:2.5%; font-size:15px;}
+}
+
+@media only screen and (min-width : 0px) and (max-width: 500px) {
+
+h2 { font-size: 25px!important; }
+.progress {bottom:0; width: 50%;}
+label { font-size: 20px !important; margin-top: 100px;}
+.input-lg {font-size:12px !important;}
+section {padding:15px;}
+#inputVijf { margin-top: 28%; }
+#speedmeter {padding-top:15px; padding-bottom: 1%; padding-left:0%;}
+#arrow {
+    position:fixed;
+    right:0;
+    bottom:0;
+    background-color:none;
+}
+#arrow a{
+    display:inline-block;
+    padding:5px 15px;
+    cursor:pointer;
+    font-size:30px;
+}
+
+    #terug { position:fixed;
+    left: 2%;
+    top: 1%;
+}
+
+    .fa {font-size: 30px!important;}
+
+    nav {left: 25px; top:2.5%; font-size:15px;}
+
+    #opslaan { margin-top:2px;}
+
+}
+
+

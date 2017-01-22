@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="oefeningToevoegenStijl.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.roundslider/1.3/roundslider.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.roundslider/1.3/roundslider.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <a href="oefeningen.html"> <div id="terug"><i class="fa fa-angle-left"></i> <nav> Terug </nav>  </div> </a>
+
+<div id="arrow">
+    <a class="next"><i class="fa fa-angle-down"></i></a>
+    <a class="previous"><i class="fa fa-angle-up"></i></a>
+</div>
+<section id="een">
+
+      <div class="form-group">
+      <label for="inputlg">1. Wat is de exposure?</label>
+      <input class="form-control input-lg" id="inputlg" type="text" placeholder="Bijv. 'pinnen'">
+    </div>
+    <button class="volgende"> OK </button>
+            <div class="progress ">
+          <div class="progress-bar" role="progressbar" aria-valuenow="20"
+          aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40%
+            </div>
+        </div>
+
+</section>
+<section id="twee">
+          <div class="form-group">
+      <label for="inputlg">2. Wat is de responspreventie?</label>
+      <input class="form-control input-lg" id="inputlg" type="text" placeholder="Bijv. 'zonder handen te wassen'">
+    </div>
+    <button class="volgende"> OK </button>
+
+
+</section>
+<section id="drie">
+              <div class="form-group">
+      <label for="inputlg">3. Wat is de rampgedachte?</label>
+      <input class="form-control input-lg" id="inputlg" type="text" placeholder="Bijv. 'ik word anders ziek'">
+    </div>
+    <button class="volgende"> OK </button>
+
+</section>
+<section id="vier">
+                  <div class="form-group">
+      <label for="inputlg">4. Hoe vaak wil je de oefening per week uitvoeren?</label>
+      <input id="klein" class="form-control input-lg" id="inputlg" class="cijfer" type="number" >
+    </div>
+    <button class="volgende"> OK </button>
+
+</section>
+<section id="vijf">
+
+      <label for="inputlg" id="inputVijf">5. Wat is je angstscore bij deze oefening?</label>
+    <div id="speedmeter">
+       <img src="speedmeter4.png">
+        <div id="slider"></div>
+    </div>
+
+    <button class="volgende"> OK </button>
+
+
+</section>
+
+<section id="zes">
+<h1>Pinnen</h1>
+    <h2> Zonder handen te wassen </h2>
+    <p>Rampgedachte: anders wordt ik ziek</p>
+    <p>4 keer per week</p>
+        <div id="speedmeter2">
+       <img src="speedmeter4.png">
+        <div id="slider2"></div>
+    </div>
+    <button class="volgende" id="opslaan"> Opslaan </button>
+
+</section>
+
+
+
+
+
+
+<script src="oefeningToevoegenJs.js"></script>
+
+</body>
+</html>

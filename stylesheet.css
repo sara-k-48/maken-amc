@@ -1,0 +1,100 @@
+*{ font-family: 'Muli', sans-serif;}
+
+h2 {font-size: 18px !important; font-weight: 700 !important;}
+
+#hamburger1, #hamburger2 { height:2px; background-color:black;
+width:34px; margin:10px; transition-duration: 0.4s; transition-property: transform;
+}
+
+#menu > p { margin-left: 10px; margin-top:-5px; font-family: 'Muli', sans-serif; font-size:12px; }
+
+.menu1Transform { transform: rotate(45deg) translateY(9px) translateX(9px) }
+.menu2Transform { transform: rotate(-45deg) translateX(-1px)}
+
+.displayNone { opacity:0; transition-duration: 0.4s;}
+
+#menu {padding-top:5px;}
+
+#content { background-color:#f7f7f7; max-width:800px; margin:auto; margin-top:0px;}
+
+.progress {max-width: 200px; border-radius:90px!important;}
+
+.progress-bar {background-color:#43c6a6 !important; }
+
+.card { background-color:white; border-radius: 3px; max-width: 300px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); padding:20px;  margin: 0 auto; margin-bottom: 10px; padding-bottom: 40px;}
+
+.uitvoeren {font-weight: 700; float: right; padding: 0px;}
+
+
+
+#knop {
+  border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  background-color: #2c826d;
+  position:fixed;
+    top:80%;
+    left: 70%;
+  box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.28);
+}
+
+#streep1{
+  height: 2px;;
+  width:30%;
+  background-color: white;
+position:relative;
+  left: 35%;
+  top: 49%;
+}
+
+#streep2 {height: 30%;
+  width:2px;
+position:relative;
+background-color:white;
+left:48%;
+top:34%;
+}
+
+#streep2 {margin-top:-1px;}
+
+#streep1, #streep2 { transition-duration: 0.4s; transition-property: transform;}
+
+.rotate{
+   transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* #streep2, #streep1 { transform: rotate(45deg);} */
+
+/*#streep1 { position:absolute; margin-left: 20px; margin-top:30px; } */
+
+#menu1, #menu2 { background-color:#2b3951; padding:15px;
+border-radius:25px; margin-bottom:10px;
+box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18);
+position: fixed;
+margin-top:-230px;
+color:white;
+}
+
+#menu1 {margin-top:-300px;}
+
+#menu1 { transition-duration: 0.3s; transition-property: transform; transition-delay: 0.1s; margin-left:40%;}
+
+#menu2 { transition-duration: 0.3s; transition-property: transform; margin-left:37.5%; margin-bottom:-20px;}
+
+*,p {font-family: 'Muli', sans-serif;}
+
+
+.scale {    transform: scale(0.0) translate(0px,100px);
+}
+
+
+
+@media only screen and (min-width : 0px) and (max-width: 500px) {
+
+#menu1 { margin-left: 130px;max-width:73%; margin-top: -395px;}
+#menu2 { margin-left: 100px;max-width:73%; margin-top:-335px;}
+
+
+
+}
